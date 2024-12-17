@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CRYPTO_TRACKER_SITE }}
-          projectId: crypto-tracker-site
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CRYPTO_TRACK_ALMAZ }}
+          projectId: crypto-track-almaz
